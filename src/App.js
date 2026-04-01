@@ -141,7 +141,7 @@ function RegisterModal({ open, onClose }) {
     setMessage("");
 
     try {
-      const res = await fetch("https://haxtrade-bbec4-default-rtdb.europe-west1.firebasedatabase.app/registrations.jsonnp/", {
+      const res = await fetch("https://haxtrade-bbec4-default-rtdb.europe-west1.firebasedatabase.app/registrations.json/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
